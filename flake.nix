@@ -47,7 +47,7 @@
               };
               garnix.server.persistence = {
                 enable = true;
-                name = lib.mkOverride 5 "rss-bridge";
+                name = "default";
               };
               networking.firewall.allowedTCPPorts = [ 80 ];
             })
